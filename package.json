@@ -1,0 +1,23 @@
+{
+  "name": "cypress-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KanfiOri/cypress-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KanfiOri/cypress-course/issues"
+  },
+  "homepage": "https://github.com/KanfiOri/cypress-course#readme",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-xpath": "^2.0.0"
+  }
+}
