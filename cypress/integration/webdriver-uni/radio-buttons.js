@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 
 describe("Verify radio buttons via webdriveruni", () => {
-  it("check specific radio button", () => {
+  it.only("check specific radio button", () => {
     cy.visit("https://webdriveruniversity.com");
     cy.get("#dropdown-checkboxes-radiobuttons")
       .invoke("removeAttr", "target")
